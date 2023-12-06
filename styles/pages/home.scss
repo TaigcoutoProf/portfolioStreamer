@@ -12,8 +12,69 @@ section.whoAmI{
             line-height: 2em;
         }
     }
-    
+
     img{
         width: 30rem;
+    }
+}
+
+section.entertainment{
+    padding: 2rem 0;
+    h1{
+        border: 1px solid #969695;
+        padding: 2rem 0;
+        text-align: center;
+    }
+    section{
+        padding: 2rem 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        div{
+            border: 1px solid #969695;
+            border-radius: 15px;
+            width: 15rem;
+            margin: 2rem;
+            img{
+                width: 15rem;
+                border-radius: 15px 15px 0 0;
+            }
+            h2{
+                text-align: center;
+            }
+        }
+    }
+}
+
+section.programacao{
+    h2{
+        text-align: center;
+        line-height: 2rem;
+    }
+    div{
+        display: flex;
+        justify-content: center;
+        gap: 15%;
+        padding: 1em;
+        article{
+            display: flex;
+            flex-direction: column;
+            border: 1px solid #969695;
+            border-radius: 15px;
+            width: 30%;
+            h2{
+                text-align: center;
+                border-bottom: 1px solid #969695;
+                border-radius: 15px 15px 0 0;
+                padding: .5em 0;
+            }
+            li{
+                text-align: center;
+                line-height: 2em;
+            }
+            div{
+                margin: 2rem;
+            }
+        }
     }
 }

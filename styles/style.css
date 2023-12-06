@@ -13,8 +13,23 @@ header a {
 section {
   background-color: #202020;
 }
-section h1, section p {
+section h1, section p, section h2, section li {
   color: #969695;
+}
+
+footer {
+  background-color: #202020;
+}
+footer p {
+  color: #969695;
+}
+
+footer {
+  padding: 2em 0;
+  border-top: 1px solid #969695;
+}
+footer p {
+  text-align: center;
 }
 
 header {
@@ -52,6 +67,65 @@ section.whoAmI article h1, section.whoAmI article p {
 }
 section.whoAmI img {
   width: 30rem;
+}
+
+section.entertainment {
+  padding: 2rem 0;
+}
+section.entertainment h1 {
+  border: 1px solid #969695;
+  padding: 2rem 0;
+  text-align: center;
+}
+section.entertainment section {
+  padding: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+section.entertainment section div {
+  border: 1px solid #969695;
+  border-radius: 15px;
+  width: 15rem;
+  margin: 2rem;
+}
+section.entertainment section div img {
+  width: 15rem;
+  border-radius: 15px 15px 0 0;
+}
+section.entertainment section div h2 {
+  text-align: center;
+}
+
+section.programacao h2 {
+  text-align: center;
+  line-height: 2rem;
+}
+section.programacao div {
+  display: flex;
+  justify-content: center;
+  gap: 15%;
+  padding: 1em;
+}
+section.programacao div article {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #969695;
+  border-radius: 15px;
+  width: 30%;
+}
+section.programacao div article h2 {
+  text-align: center;
+  border-bottom: 1px solid #969695;
+  border-radius: 15px 15px 0 0;
+  padding: 0.5em 0;
+}
+section.programacao div article li {
+  text-align: center;
+  line-height: 2em;
+}
+section.programacao div article div {
+  margin: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
