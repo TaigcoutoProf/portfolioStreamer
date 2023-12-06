@@ -1,0 +1,17 @@
+$black1:#202020;
+$black2:#3E3E3E;
+$black3:#5D5D5D;
+$black4:#969695;
+
+$blue1:#2D3945;
+$blue2:#475866;
+$blue3:#5D707E;
+$blue4:#BBC1CC;
+
+header{
+    background-color: $black1;
+    border-color: $black3;
+    a{
+        color: $black4;
+    }
+}

@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #202020;
+  border-color: #5D5D5D;
+}
+header a {
+  color: #969695;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+header img {
+  width: 7em;
+}
+header a {
+  margin: 1rem;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
