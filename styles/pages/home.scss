@@ -1,0 +1,19 @@
+section.whoAmI{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 4rem;
+    article{
+        width: 50%;
+        h1{
+            font-size: 2rem;
+        }
+        h1,p{
+            text-align: center;
+            line-height: 2em;
+        }
+    }
+    
+    img{
+        width: 30rem;
+    }
+}

@@ -3,11 +3,18 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+    border-bottom: 1px solid #969695;
     img{
         width: 7em;
     }
     a{
         margin: 1rem;
         text-decoration: none;
+    }
+    nav{
+        a:hover{
+            font-weight: 900;
+        }
+
     }
 }

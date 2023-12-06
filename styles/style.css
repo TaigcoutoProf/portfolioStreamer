@@ -1,4 +1,4 @@
-body {
+body, header, section, h1, p {
   margin: 0;
 }
 
@@ -10,11 +10,19 @@ header a {
   color: #969695;
 }
 
+section {
+  background-color: #202020;
+}
+section h1, section p {
+  color: #969695;
+}
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+  border-bottom: 1px solid #969695;
 }
 header img {
   width: 7em;
@@ -22,6 +30,28 @@ header img {
 header a {
   margin: 1rem;
   text-decoration: none;
+}
+header nav a:hover {
+  font-weight: 900;
+}
+
+section.whoAmI {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 4rem;
+}
+section.whoAmI article {
+  width: 50%;
+}
+section.whoAmI article h1 {
+  font-size: 2rem;
+}
+section.whoAmI article h1, section.whoAmI article p {
+  text-align: center;
+  line-height: 2em;
+}
+section.whoAmI img {
+  width: 30rem;
 }
 
 /*# sourceMappingURL=style.css.map */
